@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* * {
+    box-sizing: border-box;
+} */
+
+/* body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+} */
+
+/* Start Navigation Flex */
+h1 {
+    color: red;
+}
+
+header {
+    border: 2px solid orange;
+}
+
+li {
+    border: 2px solid green;
+}
+
+/* gap is a newer property in flexbox */
+.nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-list li {
+    /* flex-grow: 1; */
+    /* flex-shrink: 1; */
+}
+/* End Navigation Flex */
+
+
+/* Articles Columns Flex */
+article {
+    background-color: green;
+}
+
+.columns {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    /* width: 800px; */
+    border: 5px solid firebrick;
+}
+
+/* media query min-width says at 600px and above make columns row */
+@media (min-width: 600px) {
+    .columns {
+        flex-direction: row;
+    }
+}
+
+.columns > * {
+    /* flex-shrink: 1; */
+    /* flex-grow: 1; */
+    /* flex: 1; gives us even width columns*/
+    flex: 1; 
+    /* flex-basis 100% makes it 100% parent size */
+    /* flex-basis: 100%; */
+}
+/* End Articles Columns Flex */
+
+
+
+
+
+
+
+
+
+
+
+
