@@ -61,13 +61,18 @@ a {
     line-height: 1;
     background: none;
     padding: .75em 1.5em;
+    color: inherit;
 }
 
 .btn-1 {
-    --clr: #386397;
+    color: #386397;
+    outline: 2px solid #386397;
+    border: 2px solid #386397;
+    outline-offset: -2px;
+    transition: outline-offset 250ms ease;
 }
 
 .btn-1:hover,
 .btn-1:focus {
-
+    outline-offset: 2px;
 }
