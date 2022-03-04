@@ -76,3 +76,43 @@ a {
 .btn-1:focus {
     outline-offset: 2px;
 }
+
+.btn-2 {
+    color: #AD325E;
+    outline: 2px solid #AD325E;
+    border: 2px solid #AD325E;
+    outline-offset: -2px;
+    transition: outline-offset 250ms ease;
+}
+
+.btn-2:hover,
+.btn-2:focus {
+    outline-offset: -6px;
+}
+
+.btn-3 {
+   background: #5559ab;
+   color: #fff;
+   border:2px solid #5559ab;
+   outline: 2px solid #fff;
+   transition: outline-offset 250ms ease; 
+}
+
+.btn-3:hover,
+.btn-3:focus {
+    outline-offset: -6px;
+}
+
+.btn-4 {
+    color: #9c11ff;
+    outline: 2px solid #9c11ff;
+    border: 2px solid #9c11ff;
+    outline-offset: -2px;
+    transition: outline-offset 250ms ease;
+}
+
+.btn-4:hover,
+.btn-4:focus {
+    outline-offset: -4px;
+    outline-width: 8px;
+}
